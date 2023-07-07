@@ -1,0 +1,31 @@
+.radio-container {
+  position: absolute;
+  width: 6rem;
+  display: flex;
+  gap: 1.3rem;
+  z-index: 999;
+  right: 4.8rem;
+  top: 2.5rem;
+}
+
+input {
+  width: 2.2rem;
+  height: 2.2rem;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.idioma-container {
+  position: absolute;
+  width: 6rem;
+  display: flex;
+  gap: 1.5rem;
+  z-index: 998;
+  right: 5rem;
+  top: 2.7rem;
+}
+
+.es, .en {
+  cursor: pointer;
+  filter: sepia(1);
+}
