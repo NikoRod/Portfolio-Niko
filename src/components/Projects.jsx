@@ -8,13 +8,13 @@ import ProjectCard from './ProjectCard';
 import ExtraProjects from './ExtraProjects';
 
 // IMAGES
-import todolist from "../../public/images/todolistcap.jpg";
+import pokedex from "../../public/images/pokedexcap.jpg";
 import meraki from '../../public/Images/merakicap.jpg';
 
 export default function Project({ texts }) {
 
-	const goToDo = () => {
-		window.open('https://nikorod.github.io/ToDoList-react/', '_blank');
+	const goPokedex = () => {
+		window.open('https://nikorod.github.io/Pokedex-PokeApi/', '_blank');
 	}
 
 	const goMeraki = () => {
@@ -30,13 +30,13 @@ export default function Project({ texts }) {
 			<div className="main-projects">
 
 				<ProjectCard 
-					img={todolist}
+					img={pokedex}
 					name="To Do List"
 					desc={texts.projectDesc1}
 					tech1="React"
 					tech2="JavaScript"
-					tech3="TailwindCSS"
-					link={goToDo}
+					tech3="SASS"
+					link={goPokedex}
 				/>
 
 				<ProjectCard 

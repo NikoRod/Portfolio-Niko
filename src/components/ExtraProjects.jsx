@@ -16,6 +16,7 @@ import tw from '../../public/Images/twcap.jpg';
 import cart from '../../public/Images/carritocap.jpg';
 import barberia from "../../public/images/barberiacap.jpg";
 import form from "../../public/images/formcap.jpg";
+import todolist from "../../public/images/todolistcap.jpg";
 
 export default function ExtraProjects({ texts }) {
 
@@ -35,6 +36,9 @@ export default function ExtraProjects({ texts }) {
 		window.open('https://nikorod.github.io/Form-design-ex/', '_blank');
 	}
 
+  const goToDo = () => {
+		window.open('https://nikorod.github.io/ToDoList-react/', '_blank');
+	}
 
   return (
 
@@ -79,6 +83,10 @@ export default function ExtraProjects({ texts }) {
 
           <SwiperSlide>
             <img src={form} alt="slide_image" onClick={goForm} />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <img src={todolist} alt="slide_image" onClick={goToDo} />
           </SwiperSlide>
 
           <div className="slider-controler">

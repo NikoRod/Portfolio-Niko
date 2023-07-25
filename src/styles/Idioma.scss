@@ -21,11 +21,19 @@ input {
   display: flex;
   gap: 1.5rem;
   z-index: 998;
-  right: 5rem;
+  right: 3rem;
   top: 2.7rem;
 }
 
 .es, .en {
   cursor: pointer;
   filter: sepia(1);
+}
+
+@media screen and (min-width: 320px) and (max-width: 499px) {
+
+  .idioma-container {
+    right: 2rem;
+  }
+
 }
